@@ -1,0 +1,1 @@
+<small class="text-secondary d-flex justify-content-center mt-4">© 2021 Minggram All Rights Reserved.</small> 

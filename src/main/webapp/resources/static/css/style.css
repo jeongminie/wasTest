@@ -1,0 +1,85 @@
+ html,
+body {
+	width: 100%;
+  	
+}
+
+#wrap {
+	width: 100%;
+  	height: 100%;
+	margin:auto;
+	background-color : #f8f9fa;
+}
+
+header {
+	height:70px;
+	background-color:white;
+	border:2px solid LightGray;
+}
+
+
+.login-box {
+	display : flex;
+	align-items : center;
+	justify-content:center;	
+	width:400px;
+	border:2px solid LightGray;
+	background-color:white;
+}
+
+.logo-size{
+	width: auto;
+	height: 70px;
+	margin-left:800px;
+	padding : 14px;
+}
+
+.imagePath-size {
+	height:auto;	
+}
+
+.text-box {
+	width:700px;
+
+	border:2px solid LightGray;
+	background-color:white;
+}
+
+.non-resize {
+	resize:none;
+}
+
+.userNameInfo {
+	 margin-left: 10px;
+}
+
+.timeLine {
+	width: 700px;
+
+	border:2px solid LightGray;
+	background-color:white;
+}
+
+.comment-box{
+	width: 500px;
+	border-top:2px solid LightGray;
+	background-color:white;
+	margin-top : 20px
+}
+
+
+ul, ol, li { 
+	list-style:none; margin:0; padding:0; 
+	}
+ 
+ul.my > li { 
+	display:inline-block; padding:5px 10px; text-align:center; position:relative;
+	}
+	
+ul.my > li ul.userName_dropbox { 
+	position:absolute;
+	}
+	
+ul.myMenu > li ul.userName_dropbox > li { display:inline-block; padding:5px 10px;; text-align:center;}
+
+ul.myMenu > li:hover ul.userName_dropbox { display:block; }
